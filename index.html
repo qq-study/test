@@ -1,1 +1,45 @@
-遇见你很开心！
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+            <!--组合表单元素-->
+            <form>
+                <fieldset>
+                    <legend>联系信息</legend>
+                    <label>Email:<input type="text" name="email"/></label><br/>
+                    <label>移动电话：<input type="text" name="mobile"></label><br/>
+                    <label>座机：<input type="text" name="telephone"></label><br/>
+                </fieldset>
+            </form>
+
+            <form>
+                <label for="username">用户名：</label>
+                <input type="text" name="username" id="username" required="required"/><br/>
+                <label for="pwd">密码：</label>
+                <input type="password" name="pwd" id="pwd" required="required"><br/>
+                <input type="submit" value="提交"><br/>
+            </form>
+
+            <form>
+                <!--日期控件-->
+                <input type="date"/><br/>
+
+                <p>
+                    请输入电子邮件地址：
+                </p>
+                <input type="email"/><br/>
+
+                <!--
+                    htt[p://www.baidu.com
+                -->
+                <p>
+                    请输入网址：
+                </p>
+                <input type="url"/><br/>
+                <input type="submit" value="提交"/>
+            </form>
+    </body>
+</html>
